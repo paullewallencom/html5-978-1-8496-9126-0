@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2CEBBF71ACAC550002F3DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CEBBF61ACAC550002F3DD5 /* main.m */; };
+		B2CEBBFA1ACAC550002F3DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CEBBF91ACAC550002F3DD5 /* AppDelegate.m */; };
+		B2CEBBFD1ACAC550002F3DD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CEBBFC1ACAC550002F3DD5 /* ViewController.m */; };
+		B2CEBC001ACAC550002F3DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2CEBBFE1ACAC550002F3DD5 /* Main.storyboard */; };
+		B2CEBC021ACAC550002F3DD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2CEBC011ACAC550002F3DD5 /* Images.xcassets */; };
+		B2CEBC051ACAC550002F3DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CEBC031ACAC550002F3DD5 /* LaunchScreen.xib */; };
+		B2CEBC111ACAC550002F3DD5 /* CarGameiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CEBC101ACAC550002F3DD5 /* CarGameiOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2CEBC0B1ACAC550002F3DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2CEBBE91ACAC550002F3DD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2CEBBF01ACAC550002F3DD5;
+			remoteInfo = CarGameiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2CEBBF11ACAC550002F3DD5 /* CarGameiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarGameiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CEBBF51ACAC550002F3DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CEBBF61ACAC550002F3DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2CEBBF81ACAC550002F3DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2CEBBF91ACAC550002F3DD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2CEBBFB1ACAC550002F3DD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2CEBBFC1ACAC550002F3DD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2CEBBFF1ACAC550002F3DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2CEBC011ACAC550002F3DD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2CEBC041ACAC550002F3DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B2CEBC0A1ACAC550002F3DD5 /* CarGameiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarGameiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CEBC0F1ACAC550002F3DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CEBC101ACAC550002F3DD5 /* CarGameiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarGameiOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CEBBEE1ACAC550002F3DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CEBC071ACAC550002F3DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CEBBE81ACAC550002F3DD5 = {
+			isa = PBXGroup;
+			children = (
+				B2CEBBF31ACAC550002F3DD5 /* CarGameiOS */,
+				B2CEBC0D1ACAC550002F3DD5 /* CarGameiOSTests */,
+				B2CEBBF21ACAC550002F3DD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CEBBF21ACAC550002F3DD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2CEBBF11ACAC550002F3DD5 /* CarGameiOS.app */,
+				B2CEBC0A1ACAC550002F3DD5 /* CarGameiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CEBBF31ACAC550002F3DD5 /* CarGameiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B2CEBBF81ACAC550002F3DD5 /* AppDelegate.h */,
+				B2CEBBF91ACAC550002F3DD5 /* AppDelegate.m */,
+				B2CEBBFB1ACAC550002F3DD5 /* ViewController.h */,
+				B2CEBBFC1ACAC550002F3DD5 /* ViewController.m */,
+				B2CEBBFE1ACAC550002F3DD5 /* Main.storyboard */,
+				B2CEBC011ACAC550002F3DD5 /* Images.xcassets */,
+				B2CEBC031ACAC550002F3DD5 /* LaunchScreen.xib */,
+				B2CEBBF41ACAC550002F3DD5 /* Supporting Files */,
+			);
+			path = CarGameiOS;
+			sourceTree = "<group>";
+		};
+		B2CEBBF41ACAC550002F3DD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CEBBF51ACAC550002F3DD5 /* Info.plist */,
+				B2CEBBF61ACAC550002F3DD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2CEBC0D1ACAC550002F3DD5 /* CarGameiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2CEBC101ACAC550002F3DD5 /* CarGameiOSTests.m */,
+				B2CEBC0E1ACAC550002F3DD5 /* Supporting Files */,
+			);
+			path = CarGameiOSTests;
+			sourceTree = "<group>";
+		};
+		B2CEBC0E1ACAC550002F3DD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2CEBC0F1ACAC550002F3DD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CEBBF01ACAC550002F3DD5 /* CarGameiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CEBC141ACAC550002F3DD5 /* Build configuration list for PBXNativeTarget "CarGameiOS" */;
+			buildPhases = (
+				B2CEBBED1ACAC550002F3DD5 /* Sources */,
+				B2CEBBEE1ACAC550002F3DD5 /* Frameworks */,
+				B2CEBBEF1ACAC550002F3DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarGameiOS;
+			productName = CarGameiOS;
+			productReference = B2CEBBF11ACAC550002F3DD5 /* CarGameiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2CEBC091ACAC550002F3DD5 /* CarGameiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CEBC171ACAC550002F3DD5 /* Build configuration list for PBXNativeTarget "CarGameiOSTests" */;
+			buildPhases = (
+				B2CEBC061ACAC550002F3DD5 /* Sources */,
+				B2CEBC071ACAC550002F3DD5 /* Frameworks */,
+				B2CEBC081ACAC550002F3DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CEBC0C1ACAC550002F3DD5 /* PBXTargetDependency */,
+			);
+			name = CarGameiOSTests;
+			productName = CarGameiOSTests;
+			productReference = B2CEBC0A1ACAC550002F3DD5 /* CarGameiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CEBBE91ACAC550002F3DD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Makzan;
+				TargetAttributes = {
+					B2CEBBF01ACAC550002F3DD5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B2CEBC091ACAC550002F3DD5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B2CEBBF01ACAC550002F3DD5;
+					};
+				};
+			};
+			buildConfigurationList = B2CEBBEC1ACAC550002F3DD5 /* Build configuration list for PBXProject "CarGameiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2CEBBE81ACAC550002F3DD5;
+			productRefGroup = B2CEBBF21ACAC550002F3DD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CEBBF01ACAC550002F3DD5 /* CarGameiOS */,
+				B2CEBC091ACAC550002F3DD5 /* CarGameiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CEBBEF1ACAC550002F3DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CEBC001ACAC550002F3DD5 /* Main.storyboard in Resources */,
+				B2CEBC051ACAC550002F3DD5 /* LaunchScreen.xib in Resources */,
+				B2CEBC021ACAC550002F3DD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CEBC081ACAC550002F3DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CEBBED1ACAC550002F3DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CEBBFD1ACAC550002F3DD5 /* ViewController.m in Sources */,
+				B2CEBBFA1ACAC550002F3DD5 /* AppDelegate.m in Sources */,
+				B2CEBBF71ACAC550002F3DD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CEBC061ACAC550002F3DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CEBC111ACAC550002F3DD5 /* CarGameiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2CEBC0C1ACAC550002F3DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2CEBBF01ACAC550002F3DD5 /* CarGameiOS */;
+			targetProxy = B2CEBC0B1ACAC550002F3DD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2CEBBFE1ACAC550002F3DD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2CEBBFF1ACAC550002F3DD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2CEBC031ACAC550002F3DD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2CEBC041ACAC550002F3DD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2CEBC121ACAC550002F3DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B2CEBC131ACAC550002F3DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2CEBC151ACAC550002F3DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarGameiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2CEBC161ACAC550002F3DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarGameiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2CEBC181ACAC550002F3DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarGameiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarGameiOS.app/CarGameiOS";
+			};
+			name = Debug;
+		};
+		B2CEBC191ACAC550002F3DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarGameiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarGameiOS.app/CarGameiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CEBBEC1ACAC550002F3DD5 /* Build configuration list for PBXProject "CarGameiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CEBC121ACAC550002F3DD5 /* Debug */,
+				B2CEBC131ACAC550002F3DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CEBC141ACAC550002F3DD5 /* Build configuration list for PBXNativeTarget "CarGameiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CEBC151ACAC550002F3DD5 /* Debug */,
+				B2CEBC161ACAC550002F3DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2CEBC171ACAC550002F3DD5 /* Build configuration list for PBXNativeTarget "CarGameiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CEBC181ACAC550002F3DD5 /* Debug */,
+				B2CEBC191ACAC550002F3DD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2CEBBE91ACAC550002F3DD5 /* Project object */;
+}

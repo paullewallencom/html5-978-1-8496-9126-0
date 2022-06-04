@@ -1,0 +1,6 @@
+canvas {
+	background: #333;
+
+  /* for iOS devices */
+  -webkit-tap-highlight-color: transparent;
+}

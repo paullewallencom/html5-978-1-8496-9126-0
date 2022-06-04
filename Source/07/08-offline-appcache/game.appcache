@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# 2015-03-01:v3
+
+# Explicitly cached 'master entries'.
+CACHE:
+index.html
+css/matchgame.css
+images/bg.jpg
+images/deck.png
+images/popup_bg.jpg
+images/table.jpg
+js/jquery-1.11.2.min.js
+js/html5games.matchgame.js
+
+# Resources that require the user to be online.
+NETWORK:
+*
+

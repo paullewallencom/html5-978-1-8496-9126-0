@@ -1,0 +1,21 @@
+/*!
+ * Box2D Car Game Example
+ * http://makzan.net/html5-games/car-game/
+ *
+ * This is an example game for the book HTML5 Games Development: A Beginning Guide.
+ *
+ *
+ * mak@makzan.net
+ *
+ *
+ */
+
+
+#game {
+	background-color:#eee;
+}
+
+#asset {
+  position: absolute;
+  top: -99999px;
+}

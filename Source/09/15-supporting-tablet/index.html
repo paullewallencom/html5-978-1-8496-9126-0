@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+
+
+	<meta charset=utf-8>
+	<title>Box2D Car Game</title>
+	<link href='http://fonts.googleapis.com/css?family=Play&v1' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/cargame.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.78, minimum-scale=0.78, maximum-scale=0.78">
+</head>
+<body>
+	<header>
+		<h1>Box2DJS Car Game</h1>
+	</header>
+
+	<section id="game-container">
+
+		<canvas id="game" width='1300' height='600' class="startscreen"></canvas>
+
+		<div id="fuel" class="progressbar">
+			<div class="fuel-value" style="width: 100%;"></div>
+		</div>
+
+		<div id="level"></div>
+
+		<div id="left-button" class="touch-control"></div>
+		<div id="right-button" class="touch-control"></div>
+		<div id="restart-button" class="touch-control">Restart</div>
+	</section>
+
+	<p>Press <em>→</em> to move right. <em>←</em> to move left. <em>R</em> to restart the game.</p>
+
+	<div id="asset">
+		<img id="flag" src='images/flag.png'>
+		<img id="bus" src="images/bus.png">
+		<img id="wheel" src="images/wheel.png">
+	</div>
+
+	<script src='js/box2dweb-2.1.a.3.min.js'></script>
+	<script src='js/jquery-2.1.3.min.js'></script>
+	<script src='js/box2dcargame.js'></script>
+</body>
+</html>

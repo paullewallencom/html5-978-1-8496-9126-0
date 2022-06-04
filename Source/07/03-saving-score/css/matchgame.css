@@ -1,0 +1,147 @@
+body {
+  font-family: 'Droid Serif', Arial, serif;
+  text-align: center;
+  background: BROWN url(../images/bg.jpg);
+}
+
+#game {
+  background: #9c9;
+  padding: 5px;
+
+  position: relative;
+  background: #232 url(../images/table.jpg);
+  width: 500px;
+  height: 460px;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  border: 1px solid #666;
+  box-shadow: 0 -1px 0 #999, 0 1px 0 #999, inset 0 1px 6px #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cards {
+  position: relative;
+  width: 380px;
+  height: 400px;
+}
+
+/* Define the 3D perspective view and dimension of each card. */
+.card {
+  perspective: 600px;
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  transition: all .3s;
+}
+.face {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all .3s;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: #999 url(../images/deck.png) 0 -480px;
+}
+.back {
+  background: #efefef url(../images/deck.png);
+  transform: rotate3d(0,1,0,-180deg);
+}
+
+.card-flipped .front {
+  transform: rotate3d(0,1,0,180deg);
+}
+.card-flipped .back {
+  transform: rotate3d(0,1,0,0deg);
+}
+
+.card-removed {
+  opacity: 0;
+}
+
+/* define the face graphics of the card deck*/
+/* cardAA stands for Spade A */
+/* cardA10 stands for Spade 10 */
+/* cardAK stands for Spade K */
+/* cardB_ stands for Heart _ */
+/* cardC_ stands for Club _ */
+/* cardD_ stands for Diamond _ */
+
+.cardAJ {background-position: -800px 0;}
+.cardAQ {background-position: -880px 0;}
+.cardAK {background-position: -960px 0;}
+.cardBJ {background-position: -800px -120px;}
+.cardBQ {background-position: -880px -120px;}
+.cardBK {background-position: -960px -120px;}
+.cardCJ {background-position: -800px -240px;}
+.cardCQ {background-position: -880px -240px;}
+.cardCK {background-position: -960px -240px;}
+.cardDJ {background-position: -800px -360px;}
+.cardDQ {background-position: -880px -360px;}
+.cardDK {background-position: -960px -360px;}
+
+
+/* Styles for game over popup */
+#popup {
+  font-family: 'Orbitron', serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-shadow: 0px 1px 2px #fff;
+
+  color: #222;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background: rgba(0,0,0,.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all .5s ease-in;
+}
+
+#popup h1 {
+  font-weight: 400;
+}
+
+#popup-box {
+  width: 400px;
+  height: 300px;
+  background: #ccc url(../images/popup_bg.jpg);
+
+  border-radius: 10px;
+
+  box-shadow: 0 5px 5px #333;
+
+  display: box;
+  box-pack: center;
+  box-align: center;
+
+  transition: all .5s ease-in;
+}
+
+#popup-box small {
+  font-size: .6em;
+}
+
+/**
+ * Styles to hide the popup box
+ */
+#popup.hide {
+  background: rgba(0,0,0,0);
+  visibility: hidden;
+}
+#popup.hide #popup-box{
+  margin-top: -800px;
+}

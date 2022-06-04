@@ -1,0 +1,48 @@
+body {
+	background: #837400;
+	color: #333;
+	padding: 50px;
+}
+
+#game {
+	position: relative;
+	width: 320px;
+	height: 440px;
+	overflow: hidden;
+}
+
+#game, footer {
+	width: 320px;
+	margin: 0 auto;
+}
+
+
+#menu-scene {
+	background: #ccc url(../images/menu_bg.png);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Menu Scene Elements */
+a[href='#game'] {
+	width: 146px;
+	height: 78px;
+	background: url(../images/play_button.png);
+	overflow: hidden;
+	display: block;
+}
+
+a[href='#game']:hover {
+	background-position: -146px;
+}
+
+a[href='#game']:active {
+	background-position: -292px;
+}
+
+a[href='#game'] span {
+	display: block;
+	margin-top: -999px;
+}

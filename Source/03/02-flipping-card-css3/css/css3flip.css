@@ -1,0 +1,39 @@
+#game {
+  background: #9c9;
+  padding: 5px;
+}
+/* Define the 3D perspective view and dimension of each card. */
+.card {
+  perspective: 600px;
+  width: 80px;
+  height: 120px;
+}
+.face {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all .3s;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: #966;
+}
+.back {
+  background: #eaa;
+  transform: rotate3d(0,1,0,-180deg);
+}
+
+.card-flipped .front {
+  transform: rotate3d(0,1,0,180deg);
+}
+.card-flipped .back {
+  transform: rotate3d(0,1,0,0deg);
+}
+.cardAK {
+  background: url(../images/AK.png);
+}
+.cardAQ {
+  background: url(../images/AQ.png);
+}
